@@ -17,6 +17,7 @@
 .nav-link:hover{
     color: white;
     background-color: black;
+    transition: all 0.5s ease;
 }
 /* logo */
 
@@ -38,6 +39,7 @@
 .main h3{
     font-size: 4.4rem;
     font-weight: 700;
+    
 }
 .main h6{
     font-size: 1.4rem;
@@ -184,4 +186,38 @@ h1{
 .btn2:hover{
     background-color: gray;
     transition: 0.5s;
+}
+ /*Services Section*/
+
+ .card{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+ }
+ .card p{
+    color: gray;
+
+ }
+ .circle{
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+ }
+ .card:hover .circle{
+    background-color: black;
+    color: lightgray;
+    transition: all 0.5s ease-in-out;
+ }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
 }
